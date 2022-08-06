@@ -1,0 +1,269 @@
+
+*{
+    margin:0px; 
+    padding:0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#header{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between ;
+    padding: 20px 80px;
+    background-color:#DDB7AB;
+    height: 80px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.06)
+}
+
+#menu{ 
+    display: flex;
+    align-content: left;
+    align-items: left; 
+}
+
+
+
+
+#navbar{
+    display: flex; 
+    align-items: right; 
+    align-content: right;
+    position:relative;
+    align-items: center;
+}
+
+#navbar li{ 
+    list-style: none; 
+    padding: 0 20px; 
+    position: relative;
+}
+
+#navbar li a{ 
+    text-decoration: none; 
+    font-size: 16px; 
+    font-weight: 600; 
+    color: black;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover, 
+#navbar li a.active{  
+    color:#999B84;
+}
+
+#navbar li a.active::after, 
+#navbar li a:hover::after{ 
+    content: ""; 
+    width:30%; 
+    height:2px; 
+    background:#999B84; 
+    position:absolute; 
+    bottom:-4px; 
+        left:calc(50% - 15%);
+}
+
+a.cart-icon-link {
+  position: relative;
+  display: flex;
+}
+
+span#total_cart_items {
+  position: absolute;
+  top: calc(50% - 4px);
+  left: calc(50% - 3.5px);
+}
+
+#main{ 
+    align-items: center; 
+    text-align: center;
+    padding: 20px 450px;
+    background-color:#F4EEED;
+    height: 723px;
+}
+
+
+
+
+P{
+    font-size:40pt;
+    font-weight: bold; 
+    color: #999B84; 
+    font-family: serif;
+    padding-left: 370px;
+}
+
+#menubar {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between ;
+    padding: 20px 80px;
+    background-color:#F4EEED;
+    box-shadow:0 5px 15px rgba(0,0,0,0.06);
+    text-align: center;
+    
+    
+}
+ 
+P{
+    font-size:40pt;
+    font-weight: bold; 
+    color: #999B84; 
+    font-family: serif;
+    align-content: center;
+    text-align: center;
+    padding-left: 370px;
+}
+
+#linkmenu{
+    display: flex; 
+    text-align: center;
+    padding-left: 350px;
+
+}
+
+#linkmenu li{ 
+    list-style: none; 
+    padding: 0 20px; 
+    position: relative;
+    border:5px;
+}
+
+#linkmenu li a{ 
+    text-decoration: none; 
+    font-size: 16px; 
+    font-weight: 600; 
+    color: black;
+    transition: 0.3s ease;
+    border:5px;
+}
+
+#linkmenu li a:hover, 
+#linkmenu li a.active{  
+    color:#999B84;
+}
+
+/*main menu*/
+.menu{ 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    padding: 100px 100px; 
+    grid-column-gap: 20px; 
+    grid-row-gap: 30px;
+    background-color:#F4EEED;
+    height: 723px;
+    text-align: center;
+    color: #999B84;
+    text-align: 650px;
+}
+
+
+/* for the menu*/
+
+
+pp{
+    font-size:60px;
+    font-weight: bold; 
+    color: #999B84; 
+    font-family: serif;
+    align-content: center;
+    text-align: center;
+    padding-left: 500px;
+     
+}
+.items{ 
+    display: grid; 
+    grid-template-columns: repeat(3 , 1fr); 
+    padding: 20px 30px; 
+    grid-column-gap: 20px; 
+    grid-row-gap: 30px;
+    background-color:#F4EEED;
+    height: 1450px;
+}
+
+.itemss{ 
+    display: grid; 
+    grid-template-columns: repeat(3 , 1fr); 
+    padding: 20px 30px; 
+    grid-column-gap: 20px; 
+    grid-row-gap: 30px;
+    background-color:#F4EEED;
+    height: 1000px;
+}
+
+.item img{ 
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+    cursor: pointer;
+    transition: 0.2s ease;
+    background-color:#F4EEED;
+}
+
+.item img:hover{ 
+    transform: scale(1.04);
+}
+
+.item h3{ 
+    text-align: center; 
+    color: #999B84;
+}
+
+.item button{ 
+    
+    padding: 5px 30px; 
+    border:none; 
+    outline:none;
+    background-color:#DDB7AB; 
+    color:#999B84; 
+    cursor: pointer; 
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all; 
+}
+
+.item button:hover{ 
+    transform: scale(1.08);
+}
+
+.item option{ 
+    border-color: #F4EEED;
+    text-align: center; 
+    color: #999B84;
+    box-shadow:#999B84;   
+}
+
+.item label{ 
+    padding:200px;   
+}
+
+#footer{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between ;
+    padding: 20px 80px;
+    background-color:#DDB7AB;
+    height: 40px;
+    text-align: center;
+   
+
+}
+
+a{
+    color: #858772;
+ }
+ 
+a:hover{
+    color: #c5a298;
+    text-decoration: underline;
+ }
+
+
+
+
+
